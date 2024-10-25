@@ -19,28 +19,46 @@ Check out the live site: [cheatsheet.cam](https://cheatsheet.cam)
 ### Steps to reproduce the project on your local machine:
 
 1. **Fork the repository**
-   Make sure you have your own repository on GitHub by clicking **Fork**.
+   Click on the Fork button in the top-right corner. This creates a copy of the repository in your GitHub account.
 
 2. **Download the forked repository**:
-   Download the forked repository by clicking the **Code** button, then **Download ZIP** button:
-   Then, unzip the file.
+   Open terminal.
+   Change directory to Desktop or any where.
+   Clone your forked repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/cheatsheet.git
 
-3. **Visual Studio Code**:
-   Open Visual Studio Code and choose the root folder (cheatsheet-main).
+   ```
+   Then, change directory to the repository.
+   ```bash
+   cd cheatsheet
+   ```
 
-4. **Install dependencies**:
+4. **Visual Studio Code**:
+   Open the repository in VS Code.
+   ```bash
+   code .
+   ```
+
+5. **Install dependencies**:
 
    ```bash
    npm install
 
    ```
 
-5. **Run the project**:
+6. **Run the project**:
 
    ```bash
    npm run dev
 
    ```
+7. **Check remote linking...**:
+   Check the remotes.
+   ```bash
+   git remote -v
+   ```
+   
 
 ### ⚠️ Attention:
 
@@ -62,26 +80,25 @@ You may encounter different data for authentication and comments in production a
      ```bash
       git checkout -b feature/my-new-feature
      ```
-   - After making changes, commit them to the new branch.
-   - Then push.
-   - If your remote repository doesn’t have the current branch, create a new one.
+   - **It's time to code.**.
+   - Then, after making changes, commit and push them to the new branch in your remote repository.
      ```bash
       git push origin feature/my-new-feature
-     ```    
+     ```
+     If you have problem to push into your forked repository, please create an issue here. I'll help you learn how to fix Github credentials in your VS code.
+     
    - Create a pull request to merge your changes into the production code.
    - Your pull request will be visible on this [site](https://github.com/aim-salam/cheatsheet/pulls). Please wait for my response. I will either approve your code and merge it into production, or provide feedback if changes are needed.
+   - If your pull request merged, you can delete the branch in both local and remote repository. To contribute again, create new branch for each issues.
 
-3. **More contributions**:
+3. **Synchronize**:
 
-   - Synchronize your main remote repository with the production remote main repository by clicking **Sync fork**.
-   - In your local repository, switch to main branch. Then, update to the latest codebase to stay up to date with new changes.
-
+   - Everytime we want to contribute, make sure our main repository is up-to-date.
+   - Remote main branch : Synchronize your main remote repository with the production remote main repository by clicking **Sync fork**.
+   - Local main branch : In your local repository, switch to main branch. Then, update to the latest codebase to stay up to date with new changes.
    ```bash
    git pull
    ```
-
-   - Create a new branch for each issue and repeat step 2.
-
 <br>
 <br>
 Thank you for contributing to cheatsheet.cam!
