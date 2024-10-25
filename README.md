@@ -93,7 +93,7 @@ You may encounter different data for authentication and comments in production a
 
 3. **Synchronize**:
 
-   - Everytime we want to contribute, make sure our main repository is up-to-date.
+   - Everytime you want to contribute, make sure main repository is up-to-date before create a new branch.
    - Remote main branch : Synchronize your main remote repository with the production remote main repository by clicking **Sync fork**.
    - Local main branch : In your local repository, switch to main branch. Then, update to the latest codebase to stay up to date with new changes.
    ```bash
