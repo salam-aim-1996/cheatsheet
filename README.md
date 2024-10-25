@@ -26,7 +26,7 @@ Check out the live site: [cheatsheet.cam](https://cheatsheet.cam)
    Then, unzip the file.
 
 3. **Visual Studio Code**:
-   Open Visual Studio Code and choose the file.
+   Open Visual Studio Code and choose the root folder (cheatsheet-main).
 
 4. **Install dependencies**:
 
@@ -55,8 +55,9 @@ You may encounter different data for authentication and comments in production a
    - You can see all the issues that need to be fixed in the [Issues section](https://github.com/aim-salam/cheatsheet/issues).
    - To take an issue, comment using this format:
 
-2. **Pull request**:
+2. **Contribute**:
 
+   - After you are assigned an issue, you are ready to contribute.
    - Create a new branch in your local repository.
      ```bash
       git checkout -b feature/my-new-feature
