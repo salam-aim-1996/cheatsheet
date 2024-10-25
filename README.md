@@ -89,7 +89,7 @@ You may encounter different data for authentication and comments in production a
      
    - Create a pull request to merge your changes into the production code.
    - Your pull request will be visible on this [site](https://github.com/aim-salam/cheatsheet/pulls). Please wait for my response. I will either approve your code and merge it into production, or provide feedback if changes are needed.
-   - If your pull request merged, you can delete the branch in both local and remote repository. To contribute again, create new branch for each issues.
+   - If your pull request merged, you can delete the branch in both local and remote repository. To contribute again, create a new branch.
 
 3. **Synchronize**:
 
