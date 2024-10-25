@@ -80,7 +80,7 @@ You may encounter different data for authentication and comments in production a
    git pull
    ```
 
-   - Create a new branch for each issue and repeat step 2..
+   - Create a new branch for each issue and repeat step 2...
 
 <br>
 <br>
